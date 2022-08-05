@@ -1,0 +1,237 @@
+
+body {
+    background-image: linear-gradient(0.30turn,#D3101D, #966fd6, #0c208e, #7807B5 );
+}
+
+
+
+img {
+    position: fixed; left: 825px; top: 450px;
+}
+
+img.rounded-corners {
+    border-radius: 30px;
+}
+
+.title {
+    font-family: "Lobster", cursive; 
+    text-align: center;
+    font-size: 125px;
+    position: fixed; left: 650px; top:100px;
+    
+}
+
+.butt {
+    text-align: center;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 40%;
+    border-color: rgb(160, 132, 160);
+    width: 300px;
+    height: 50px;
+    font-family: "Lobster", cursive;
+    font-size: xx-large;
+    background-image: radial-gradient(#929191,
+    #d3cbd3 , #ffffff, #c8c7c8);
+    text-decoration: none;
+}
+
+.play {
+    display: flex;
+    justify-content: space-around;
+    width: 18vw;
+    position: fixed; left: 981px; top: 1000px;
+    
+    }
+
+.square {
+        background-color: mintcream;
+        border: 2px solid pink;
+        }
+        
+.board {
+        display: grid;
+        grid-template-columns: repeat(6, 240px);
+        grid-template-rows: repeat(6, 80px);
+        grid-gap: 5px;
+        position: fixed; left: 500px; top: 350px;
+        
+        }
+
+        #category {
+            text-align: center;
+            font-size: xx-large;
+            font-family: "Lobster", cursive;
+        }
+
+        #square200 {
+            text-align: center;
+            font-size: xx-large;
+            font-family: "Lobster", cursive;
+        }
+
+        #square400 {
+            text-align: center;
+            font-size: xx-large;
+            font-family: "Lobster", cursive;
+        }
+
+        #square600 {
+            text-align: center;
+            font-size: xx-large;
+            font-family: "Lobster", cursive;
+        }
+
+        #square800 {
+            text-align: center;
+            font-size: xx-large;
+            font-family: "Lobster", cursive;
+        }
+
+        #square1000 {
+            text-align: center;
+            font-size: xx-large;
+            font-family: "Lobster", cursive;
+        }
+        #square1200 {
+            text-align: center;
+            font-size: xx-large;
+            font-family: "Lobster", cursive;
+        }
+
+        #square1600 {
+            text-align: center;
+            font-size: xx-large;
+            font-family: "Lobster", cursive;
+        }
+
+        #square2000 {
+            text-align: center;
+            font-size: xx-large;
+            font-family: "Lobster", cursive;
+        }
+
+.finalquestion {
+    position: fixed; left: 850px; top: 450px;
+    border-width: medium;
+    border: 5px solid black;
+    width: 750px;
+    height: 350px;
+    text-align: center;
+    background-color: #c8c7c8;
+    font-size: 100px;
+    font-family: "Lobster", cursive;
+}
+
+.finalcategory {
+    position: fixed; left: 850px; top: 400px;
+    border-width: medium;
+    border: 5px solid black;
+    width: 750px;
+    height: 50px;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: xx-large;
+    font-family: "Lobster", cursive;
+}
+
+.pointbetamount {
+    position: fixed; left: 1100px; top: 900px;
+    border-width: medium;
+    border: 5px solid black;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: xx-large;
+    font-family: "Lobster", cursive;
+}
+
+.finalanswer {
+    position: fixed; left: 1100px; top: 1000px;
+    border-width: medium;
+    border: 5px solid black;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: xx-large;
+    font-family: "Lobster", cursive;
+}
+
+.bet {
+    position: fixed; left: 1150px; top: 1100px;
+    border-width: medium;
+    border: 5px solid black;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: xx-large;
+    font-family: "Lobster", cursive;
+}
+#nextpage {
+    position: fixed; left: 2000px; top: 1000px;
+}
+
+
+.firstround {
+    font-family: "Lobster", cursive;
+    text-align: center;
+    font-size: 125px;
+    position: fixed; left: 950px; top: -20px;
+}
+        
+.secondround {
+    font-family: "Lobster", cursive;
+    text-align: center;
+    font-size: 125px;
+    position: fixed; left: 880px; top: -20px;
+}
+
+.finaljeopardy{
+    font-family: "Lobster", cursive;
+    text-align: center;
+    font-size: 125px;
+    position: fixed; left: 880px; top: -20px;
+}
+.playerturn {
+    font-family: "Lobster", cursive;
+    font-size: 50px;
+    position: fixed; left: 1100px; top: 200px;
+}
+
+.userinput {
+    position: fixed; left: 1075px; top: 900px;
+    border-width: medium;
+    border: 5px solid black;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
+
+.guess {
+    position: fixed; left: 800px; top: 1000px;
+    border-width: medium;
+    border: 5px solid black;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+.pass {
+    position: fixed; left: 1550px; top: 1000px;
+    border-width: medium;
+    border: 5px solid black;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+.player1 {
+    position: fixed; left: 600px; top: 950px;
+}
+
+.player2 {
+    position: fixed; left: 1725px; top: 950px;
+}
